@@ -141,11 +141,14 @@ hr {
 }
 
 .course-duration {
+    Width: 94.83px;
+    Height: 29.38px;
     font-size: 15;
     font-weight: 600;
     background-color: #FEE5DF;
     color: #ED6B4F;
     border-radius: 14.6913px;
+    padding-left: 5%;
 }
 
 .fa-star {
