@@ -1,56 +1,95 @@
-
-
- /* fonts  */
+/* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap');
 
 /* common style or utilities */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-    
+
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
 }
-.container{
+
+.container {
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
 
 }
+
 .top-players {
     margin-bottom: 30px;
 }
-.section-title{
+
+.section-title {
     color: #562EFF;
     font-size: 24px;
     margin: 3px;
+    margin-bottom: 24px;
 }
 
- /* top players style  */
- .players{
+/* top players style  */
+.players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-row-gap:30px;
-    
- }
- .player{
+    grid-row-gap: 30px;
+
+}
+
+.player {
     display: flex;
     align-items: center;
- }
- hr {
+}
+
+hr {
     border: 1 px solid #D1D1D1;
- }
- .player img{
+    margin-bottom: 27px;
+}
+
+.player img {
     display: flex;
-    width: 56px ;
-    height: 56px ;
- }
- .player-name{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
     margin-left: 16px;
     font-size: 18px;
- }
- 
+}
+
+
+/* top blog style  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:26px;
+}
+.blog img {
+
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+
+}
+.blog-title{
+    font-size: 20px;
+}
+
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a {
+    text-decoration: none ;
+    color: #562EFF;
+    font-size: 16px;
+}
